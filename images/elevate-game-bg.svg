@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="400" viewBox="0 0 1200 400">
+  <!-- Background Gradient -->
+  <defs>
+    <linearGradient id="bg-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2b2d42" />
+      <stop offset="100%" stop-color="#4361ee" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Main Background -->
+  <rect width="1200" height="400" fill="url(#bg-gradient)" />
+  
+  <!-- Basketball Court Elements -->
+  <g opacity="0.1" stroke="#ffffff" stroke-width="2">
+    <!-- Court Outline -->
+    <rect x="100" y="50" width="1000" height="300" fill="none" />
+    
+    <!-- Center Circle -->
+    <circle cx="600" cy="200" r="80" fill="none" />
+    
+    <!-- Center Line -->
+    <line x1="600" y1="50" x2="600" y2="350" />
+    
+    <!-- Free Throw Circles -->
+    <circle cx="300" cy="200" r="60" fill="none" />
+    <circle cx="900" cy="200" r="60" fill="none" />
+    
+    <!-- Three Point Lines -->
+    <path d="M 100,100 C 200,100 300,150 300,200 C 300,250 200,300 100,300" fill="none" />
+    <path d="M 1100,100 C 1000,100 900,150 900,200 C 900,250 1000,300 1100,300" fill="none" />
+  </g>
+  
+  <!-- Dynamic Elements -->
+  <g>
+    <!-- Basketball Silhouettes -->
+    <g transform="translate(200, 150) scale(0.8)">
+      <circle cx="0" cy="0" r="50" fill="#ff6b00" opacity="0.7" />
+      <path d="M -50,0 C -50,27.61 -27.61,50 0,50 C 27.61,50 50,27.61 50,0 C 50,-27.61 27.61,-50 0,-50 C -27.61,-50 -50,-27.61 -50,0 Z" fill="none" stroke="#ffffff" stroke-width="2" />
+      <path d="M 0,-50 C 0,-16.67 0,16.67 0,50" fill="none" stroke="#ffffff" stroke-width="2" />
+      <path d="M -35.36,-35.36 C -11.79,-11.79 11.79,11.79 35.36,35.36" fill="none" stroke="#ffffff" stroke-width="2" />
+      <path d="M -35.36,35.36 C -11.79,11.79 11.79,-11.79 35.36,-35.36" fill="none" stroke="#ffffff" stroke-width="2" />
+    </g>
+    
+    <g transform="translate(1000, 250) scale(0.6)">
+      <circle cx="0" cy="0" r="50" fill="#ff6b00" opacity="0.7" />
+      <path d="M -50,0 C -50,27.61 -27.61,50 0,50 C 27.61,50 50,27.61 50,0 C 50,-27.61 27.61,-50 0,-50 C -27.61,-50 -50,-27.61 -50,0 Z" fill="none" stroke="#ffffff" stroke-width="2" />
+      <path d="M 0,-50 C 0,-16.67 0,16.67 0,50" fill="none" stroke="#ffffff" stroke-width="2" />
+      <path d="M -35.36,-35.36 C -11.79,-11.79 11.79,11.79 35.36,35.36" fill="none" stroke="#ffffff" stroke-width="2" />
+      <path d="M -35.36,35.36 C -11.79,11.79 11.79,-11.79 35.36,-35.36" fill="none" stroke="#ffffff" stroke-width="2" />
+    </g>
+    
+    <!-- Player Silhouette Dunking -->
+    <g transform="translate(600, 200)">
+      <!-- Body -->
+      <path d="M -20,50 C -25,30 -15,0 0,-10 C 15,-20 20,0 15,20 L 10,80 L 0,100 L -10,80 Z" fill="#ffffff" opacity="0.8" />
+      
+      <!-- Head -->
+      <circle cx="0" cy="-20" r="15" fill="#ffffff" opacity="0.8" />
+      
+      <!-- Arms Dunking -->
+      <path d="M 0,-10 C 20,-15 40,-30 50,-60 L 60,-70" fill="none" stroke="#ffffff" stroke-width="4" stroke-linecap="round" opacity="0.8" />
+      <path d="M 0,-10 C -10,-15 -20,-5 -30,10" fill="none" stroke="#ffffff" stroke-width="4" stroke-linecap="round" opacity="0.8" />
+      
+      <!-- Legs -->
+      <path d="M 0,100 C 5,120 10,140 5,160" fill="none" stroke="#ffffff" stroke-width="4" stroke-linecap="round" opacity="0.8" />
+      <path d="M 0,100 C -5,120 -15,130 -20,150" fill="none" stroke="#ffffff" stroke-width="4" stroke-linecap="round" opacity="0.8" />
+    </g>
+    
+    <!-- Basketball Hoop -->
+    <g transform="translate(600, -70)">
+      <rect x="-5" y="0" width="10" height="100" fill="#ffffff" opacity="0.8" />
+      <rect x="-40" y="100" width="80" height="5" fill="#ffffff" opacity="0.8" />
+      <rect x="-30" y="105" width="60" height="2" fill="#ff6b00" opacity="0.9" />
+      <path d="M -30,107 C -30,130 -20,140 0,140 C 20,140 30,130 30,107" fill="none" stroke="#ffffff" stroke-width="2" stroke-dasharray="2,2" opacity="0.7" />
+    </g>
+    
+    <!-- Motion Lines and Energy Elements -->
+    <g opacity="0.6">
+      <!-- Motion Lines -->
+      <path d="M 400,100 C 450,120 500,150 550,130" fill="none" stroke="#ffffff" stroke-width="2" stroke-dasharray="5,5" />
+      <path d="M 650,130 C 700,150 750,120 800,100" fill="none" stroke="#ffffff" stroke-width="2" stroke-dasharray="5,5" />
+      
+      <!-- Energy Bursts -->
+      <g transform="translate(400, 300)">
+        <path d="M 0,0 L 15,-25 L 0,-15 L 25,-40 L 5,-20 L 30,-30 L 0,0" fill="none" stroke="#ff6b00" stroke-width="2" />
+      </g>
+      
+      <g transform="translate(800, 300)">
+        <path d="M 0,0 L -15,-25 L 0,-15 L -25,-40 L -5,-20 L -30,-30 L 0,0" fill="none" stroke="#ff6b00" stroke-width="2" />
+      </g>
+    </g>
+  </g>
+  
+  <!-- Abstract Shapes -->
+  <g opacity="0.3">
+    <circle cx="150" cy="50" r="30" fill="#ff6b00" />
+    <circle cx="1050" cy="350" r="40" fill="#ff6b00" />
+    <path d="M 300,50 L 350,80 L 320,120 L 270,90 Z" fill="#ff6b00" />
+    <path d="M 900,50 L 950,80 L 920,120 L 870,90 Z" fill="#ff6b00" />
+  </g>
+  
+  <!-- Title Text (Optional - can be added in HTML instead) -->
+  <g transform="translate(600, 50)">
+    <text x="0" y="0" font-family="Arial" font-size="40" font-weight="bold" text-anchor="middle" fill="#ffffff" opacity="0.9">ELEVATE YOUR GAME</text>
+  </g>
+</svg>

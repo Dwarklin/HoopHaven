@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
+  <!-- Background Circle -->
+  <circle cx="100" cy="100" r="100" fill="#4361ee"/>
+  
+  <!-- Person Silhouette -->
+  <g transform="translate(100, 85)">
+    <!-- Head -->
+    <circle cx="0" cy="-40" r="30" fill="#ffffff"/>
+    
+    <!-- Body -->
+    <path d="M -25,-15 C -30,-5 -30,20 -20,30 C -15,35 -5,40 0,40 C 5,40 15,35 20,30 C 30,20 30,-5 25,-15 C 20,-25 10,-30 0,-30 C -10,-30 -20,-25 -25,-15 Z" fill="#ffffff"/>
+    
+    <!-- Face Features (simplified) -->
+    <g transform="translate(0, -40)">
+      <!-- Eyes -->
+      <circle cx="-10" cy="-5" r="3" fill="#2b2d42"/>
+      <circle cx="10" cy="-5" r="3" fill="#2b2d42"/>
+      
+      <!-- Smile -->
+      <path d="M -10,10 C -5,15 5,15 10,10" fill="none" stroke="#2b2d42" stroke-width="2" stroke-linecap="round"/>
+    </g>
+    
+    <!-- Basketball Jersey Details -->
+    <g>
+      <!-- Jersey Number -->
+      <text x="0" y="10" font-family="Arial" font-size="24" font-weight="bold" text-anchor="middle" fill="#ff6b00">23</text>
+      
+      <!-- Jersey Trim -->
+      <path d="M -20,-15 L -15,-25 L 15,-25 L 20,-15" fill="none" stroke="#ff6b00" stroke-width="2"/>
+    </g>
+  </g>
+  
+  <!-- Name Label -->
+  <g transform="translate(100, 170)">
+    <rect x="-70" y="-15" width="140" height="30" rx="5" ry="5" fill="#2b2d42" opacity="0.8"/>
+    <text x="0" y="5" font-family="Arial" font-size="14" font-weight="bold" text-anchor="middle" fill="#ffffff">Michael J.</text>
+  </g>
+  
+  <!-- Rating Stars -->
+  <g transform="translate(100, 190)">
+    <!-- 5 Stars -->
+    <g transform="translate(-50, 0)">
+      <path d="M 0,-5 L 1.5,-1.5 L 5,-1 L 2.5,1.5 L 3,5 L 0,3 L -3,5 L -2.5,1.5 L -5,-1 L -1.5,-1.5 Z" fill="#ff6b00" stroke="#ffffff" stroke-width="0.5"/>
+    </g>
+    <g transform="translate(-25, 0)">
+      <path d="M 0,-5 L 1.5,-1.5 L 5,-1 L 2.5,1.5 L 3,5 L 0,3 L -3,5 L -2.5,1.5 L -5,-1 L -1.5,-1.5 Z" fill="#ff6b00" stroke="#ffffff" stroke-width="0.5"/>
+    </g>
+    <g transform="translate(0, 0)">
+      <path d="M 0,-5 L 1.5,-1.5 L 5,-1 L 2.5,1.5 L 3,5 L 0,3 L -3,5 L -2.5,1.5 L -5,-1 L -1.5,-1.5 Z" fill="#ff6b00" stroke="#ffffff" stroke-width="0.5"/>
+    </g>
+    <g transform="translate(25, 0)">
+      <path d="M 0,-5 L 1.5,-1.5 L 5,-1 L 2.5,1.5 L 3,5 L 0,3 L -3,5 L -2.5,1.5 L -5,-1 L -1.5,-1.5 Z" fill="#ff6b00" stroke="#ffffff" stroke-width="0.5"/>
+    </g>
+    <g transform="translate(50, 0)">
+      <path d="M 0,-5 L 1.5,-1.5 L 5,-1 L 2.5,1.5 L 3,5 L 0,3 L -3,5 L -2.5,1.5 L -5,-1 L -1.5,-1.5 Z" fill="#ff6b00" stroke="#ffffff" stroke-width="0.5"/>
+    </g>
+  </g>
+</svg>

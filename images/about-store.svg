@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <!-- Store Building -->
+  <rect x="100" y="200" width="600" height="300" rx="10" fill="#f8f9fa" stroke="#2b2d42" stroke-width="5"/>
+  
+  <!-- Store Front Window -->
+  <rect x="150" y="250" width="200" height="150" rx="5" fill="#e9ecef" stroke="#2b2d42" stroke-width="3"/>
+  
+  <!-- Store Door -->
+  <rect x="400" y="300" width="80" height="200" rx="5" fill="#4361ee" stroke="#2b2d42" stroke-width="3"/>
+  <circle cx="465" cy="400" r="5" fill="#ff6b00"/>
+  
+  <!-- Second Window -->
+  <rect x="530" y="250" width="120" height="150" rx="5" fill="#e9ecef" stroke="#2b2d42" stroke-width="3"/>
+  
+  <!-- Store Sign -->
+  <rect x="250" y="150" width="300" height="80" rx="10" fill="#ff6b00" stroke="#2b2d42" stroke-width="3"/>
+  <text x="400" y="200" font-family="Arial" font-size="40" font-weight="bold" text-anchor="middle" fill="white">HOOPHAVEN</text>
+  
+  <!-- Basketball Display in Window -->
+  <circle cx="250" cy="325" r="40" fill="#ff6b00" stroke="#2b2d42" stroke-width="2"/>
+  <path d="M250 285 Q250 325 250 365 M210 325 Q250 325 290 325 M220 295 Q280 355 220 355 M280 295 Q220 355 280 355" stroke="#2b2d42" stroke-width="2" fill="none"/>
+  
+  <!-- Shoes Display in Second Window -->
+  <path d="M550 320 C560 310 580 310 590 320 L590 350 C580 360 560 360 550 350 Z" fill="#2b2d42" stroke="#2b2d42" stroke-width="2"/>
+  <path d="M570 320 L570 350" stroke="#ff6b00" stroke-width="2"/>
+  <path d="M560 330 L580 330" stroke="#ff6b00" stroke-width="2"/>
+  
+  <!-- Jersey Display -->
+  <path d="M600 300 L620 300 L630 320 L630 360 L610 360 L590 360 L590 320 L600 300" fill="none" stroke="#2b2d42" stroke-width="2"/>
+  <text x="610" y="340" font-family="Arial" font-size="20" font-weight="bold" text-anchor="middle" fill="#ff6b00">23</text>
+  
+  <!-- Sidewalk -->
+  <rect x="50" y="500" width="700" height="50" fill="#e9ecef" stroke="#2b2d42" stroke-width="2"/>
+  <line x1="100" y1="500" x2="100" y2="550" stroke="#6c757d" stroke-width="1"/>
+  <line x1="200" y1="500" x2="200" y2="550" stroke="#6c757d" stroke-width="1"/>
+  <line x1="300" y1="500" x2="300" y2="550" stroke="#6c757d" stroke-width="1"/>
+  <line x1="400" y1="500" x2="400" y2="550" stroke="#6c757d" stroke-width="1"/>
+  <line x1="500" y1="500" x2="500" y2="550" stroke="#6c757d" stroke-width="1"/>
+  <line x1="600" y1="500" x2="600" y2="550" stroke="#6c757d" stroke-width="1"/>
+  <line x1="700" y1="500" x2="700" y2="550" stroke="#6c757d" stroke-width="1"/>
+  
+  <!-- People Silhouettes -->
+  <circle cx="180" cy="520" r="15" fill="#2b2d42"/>
+  <rect x="170" y="535" width="20" height="30" fill="#2b2d42"/>
+  
+  <circle cx="480" cy="520" r="15" fill="#2b2d42"/>
+  <rect x="470" y="535" width="20" height="30" fill="#2b2d42"/>
+  
+  <!-- Basketball Hoop on Side of Building -->
+  <rect x="700" y="250" width="10" height="100" fill="#6c757d"/>
+  <rect x="650" y="350" width="100" height="5" fill="#6c757d"/>
+  <rect x="690" y="355" width="20" height="15" fill="#e9ecef" stroke="#2b2d42" stroke-width="2"/>
+  <circle cx="700" cy="380" r="15" fill="none" stroke="#ff6b00" stroke-width="3"/>
+  
+  <!-- Decorative Elements -->
+  <circle cx="100" cy="100" r="30" fill="#ff6b00" opacity="0.2"/>
+  <circle cx="700" cy="150" r="40" fill="#4361ee" opacity="0.2"/>
+  <circle cx="200" cy="550" r="20" fill="#ff6b00" opacity="0.2"/>
+  <circle cx="600" cy="550" r="25" fill="#4361ee" opacity="0.2"/>
+</svg>

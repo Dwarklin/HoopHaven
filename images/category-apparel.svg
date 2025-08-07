@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300" viewBox="0 0 400 300">
+  <!-- Background -->
+  <rect width="400" height="300" fill="#f8f9fa"/>
+  
+  <!-- Basketball Jersey -->
+  <g transform="translate(200, 120) scale(0.8)">
+    <!-- Jersey Outline -->
+    <path d="M -80,-80 L 80,-80 L 100,0 L 80,100 L -80,100 L -100,0 Z" fill="#4361ee" stroke="#2b2d42" stroke-width="3"/>
+    
+    <!-- Jersey Neck -->
+    <path d="M -40,-80 L -20,-40 L 20,-40 L 40,-80" fill="#4361ee" stroke="#2b2d42" stroke-width="3"/>
+    
+    <!-- Jersey Number -->
+    <text x="0" y="30" font-family="Arial" font-size="80" font-weight="bold" text-anchor="middle" fill="#ffffff">23</text>
+    
+    <!-- Jersey Stripes -->
+    <path d="M -80,-60 L -90,-40" stroke="#ffffff" stroke-width="5" fill="none"/>
+    <path d="M -80,-40 L -90,-20" stroke="#ffffff" stroke-width="5" fill="none"/>
+    <path d="M -80,-20 L -90,0" stroke="#ffffff" stroke-width="5" fill="none"/>
+    <path d="M -80,0 L -90,20" stroke="#ffffff" stroke-width="5" fill="none"/>
+    <path d="M -80,20 L -90,40" stroke="#ffffff" stroke-width="5" fill="none"/>
+    <path d="M -80,40 L -90,60" stroke="#ffffff" stroke-width="5" fill="none"/>
+    <path d="M -80,60 L -90,80" stroke="#ffffff" stroke-width="5" fill="none"/>
+    
+    <path d="M 80,-60 L 90,-40" stroke="#ffffff" stroke-width="5" fill="none"/>
+    <path d="M 80,-40 L 90,-20" stroke="#ffffff" stroke-width="5" fill="none"/>
+    <path d="M 80,-20 L 90,0" stroke="#ffffff" stroke-width="5" fill="none"/>
+    <path d="M 80,0 L 90,20" stroke="#ffffff" stroke-width="5" fill="none"/>
+    <path d="M 80,20 L 90,40" stroke="#ffffff" stroke-width="5" fill="none"/>
+    <path d="M 80,40 L 90,60" stroke="#ffffff" stroke-width="5" fill="none"/>
+    <path d="M 80,60 L 90,80" stroke="#ffffff" stroke-width="5" fill="none"/>
+    
+    <!-- Jersey Armholes -->
+    <path d="M -80,-80 C -90,-60 -100,-40 -100,0" fill="none" stroke="#2b2d42" stroke-width="3"/>
+    <path d="M 80,-80 C 90,-60 100,-40 100,0" fill="none" stroke="#2b2d42" stroke-width="3"/>
+  </g>
+  
+  <!-- Text Label -->
+  <text x="200" y="250" font-family="Arial" font-size="24" font-weight="bold" text-anchor="middle" fill="#2b2d42">Apparel</text>
+</svg>

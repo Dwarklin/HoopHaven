@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="400" viewBox="0 0 1200 400">
+  <!-- Background Gradient -->
+  <defs>
+    <linearGradient id="bg-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2b2d42" />
+      <stop offset="100%" stop-color="#4361ee" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Main Background -->
+  <rect width="1200" height="400" fill="url(#bg-gradient)" />
+  
+  <!-- Basketball Court Elements -->
+  <g opacity="0.1" stroke="#ffffff" stroke-width="2">
+    <!-- Court Outline -->
+    <rect x="100" y="50" width="1000" height="300" fill="none" />
+    
+    <!-- Center Circle -->
+    <circle cx="600" cy="200" r="80" fill="none" />
+    
+    <!-- Center Line -->
+    <line x1="600" y1="50" x2="600" y2="350" />
+  </g>
+</svg>

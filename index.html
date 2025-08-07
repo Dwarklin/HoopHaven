@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HoopHaven - Premium Basketball Store</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <h1>HoopHaven</h1>
+                </div>
+                <div class="menu-toggle" id="mobile-menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+                <ul class="nav-menu">
+                    <li><a href="#" class="active">Home</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#featured">Featured</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="nav-icons">
+                    <a href="#" class="icon"><i class="fas fa-search"></i></a>
+                    <a href="#" class="icon"><i class="fas fa-user"></i></a>
+                    <a href="#" class="icon cart-icon"><i class="fas fa-shopping-cart"></i><span class="cart-count">0</span></a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Elevate Your Game</h1>
+                <p>Premium basketball gear for players who demand excellence</p>
+                <div class="hero-buttons">
+                    <a href="#products" class="btn btn-primary">Shop Now</a>
+                    <a href="#featured" class="btn btn-secondary">View Featured</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="categories" class="categories">
+        <div class="container">
+            <h2 class="section-title">Categories</h2>
+            <div class="category-grid">
+                <div class="category-card">
+                    <div class="category-img">
+                        <img src="images/category-shoes.svg" alt="Basketball Shoes">
+                    </div>
+                    <h3>Shoes</h3>
+                    <a href="#" class="btn-text">Shop Now <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="category-card">
+                    <div class="category-img">
+                        <img src="images/category-balls.svg" alt="Basketballs">
+                    </div>
+                    <h3>Basketballs</h3>
+                    <a href="#" class="btn-text">Shop Now <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="category-card">
+                    <div class="category-img">
+                        <img src="images/category-apparel.svg" alt="Basketball Apparel">
+                    </div>
+                    <h3>Apparel</h3>
+                    <a href="#" class="btn-text">Shop Now <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="category-card">
+                    <div class="category-img">
+                        <img src="images/category-accessories.svg" alt="Basketball Accessories">
+                    </div>
+                    <h3>Accessories</h3>
+                    <a href="#" class="btn-text">Shop Now <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="products" class="products">
+        <div class="container">
+            <h2 class="section-title">Best Sellers</h2>
+            <div class="product-filter">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="shoes">Shoes</button>
+                <button class="filter-btn" data-filter="balls">Balls</button>
+                <button class="filter-btn" data-filter="apparel">Apparel</button>
+                <button class="filter-btn" data-filter="accessories">Accessories</button>
+            </div>
+            <div class="product-grid">
+                <!-- Product 1 -->
+                <div class="product-card" data-category="shoes">
+                    <div class="product-badge">New</div>
+                    <div class="product-img">
+                        <img src="images/product-shoe1.svg" alt="Pro Court Elite X9">
+                        <div class="product-actions">
+                            <button class="action-btn"><i class="fas fa-heart"></i></button>
+                            <button class="action-btn add-to-cart"><i class="fas fa-shopping-cart"></i></button>
+                            <button class="action-btn"><i class="fas fa-eye"></i></button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Pro Court Elite X9</h3>
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                            <span>(24)</span>
+                        </div>
+                        <div class="product-price">
+                            <span class="price">$129.99</span>
+                            <span class="old-price">$149.99</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product 2 -->
+                <div class="product-card" data-category="balls">
+                    <div class="product-badge bestseller">Bestseller</div>
+                    <div class="product-img">
+                        <img src="images/product-ball1.svg" alt="Official Game Ball Pro">
+                        <div class="product-actions">
+                            <button class="action-btn"><i class="fas fa-heart"></i></button>
+                            <button class="action-btn add-to-cart"><i class="fas fa-shopping-cart"></i></button>
+                            <button class="action-btn"><i class="fas fa-eye"></i></button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Official Game Ball Pro</h3>
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <span>(56)</span>
+                        </div>
+                        <div class="product-price">
+                            <span class="price">$59.99</span>
+                            <span class="old-price">$69.99</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product 3 -->
+                <div class="product-card" data-category="apparel">
+                    <div class="product-img">
+                        <img src="images/product-jersey1.svg" alt="Performance Jersey">
+                        <div class="product-actions">
+                            <button class="action-btn"><i class="fas fa-heart"></i></button>
+                            <button class="action-btn add-to-cart"><i class="fas fa-shopping-cart"></i></button>
+                            <button class="action-btn"><i class="fas fa-eye"></i></button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Performance Jersey</h3>
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <span>(18)</span>
+                        </div>
+                        <div class="product-price">
+                            <span class="price">$49.99</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product 4 -->
+                <div class="product-card" data-category="accessories">
+                    <div class="product-badge sale">Sale</div>
+                    <div class="product-img">
+                        <img src="images/product-accessory1.svg" alt="Training Cones Set">
+                        <div class="product-actions">
+                            <button class="action-btn"><i class="fas fa-heart"></i></button>
+                            <button class="action-btn add-to-cart"><i class="fas fa-shopping-cart"></i></button>
+                            <button class="action-btn"><i class="fas fa-eye"></i></button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Training Cones Set</h3>
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                            <span>(32)</span>
+                        </div>
+                        <div class="product-price">
+                            <span class="price">$24.99</span>
+                            <span class="old-price">$34.99</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product 5 -->
+                <div class="product-card" data-category="shoes">
+                    <div class="product-img">
+                        <img src="images/product-shoe2.svg" alt="Street Ball Classics">
+                        <div class="product-actions">
+                            <button class="action-btn"><i class="fas fa-heart"></i></button>
+                            <button class="action-btn add-to-cart"><i class="fas fa-shopping-cart"></i></button>
+                            <button class="action-btn"><i class="fas fa-eye"></i></button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Street Ball Classics</h3>
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                            <i class="far fa-star"></i>
+                            <span>(12)</span>
+                        </div>
+                        <div class="product-price">
+                            <span class="price">$89.99</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product 6 -->
+                <div class="product-card" data-category="apparel">
+                    <div class="product-img">
+                        <img src="images/product-shorts1.svg" alt="Pro Performance Shorts">
+                        <div class="product-actions">
+                            <button class="action-btn"><i class="fas fa-heart"></i></button>
+                            <button class="action-btn add-to-cart"><i class="fas fa-shopping-cart"></i></button>
+                            <button class="action-btn"><i class="fas fa-eye"></i></button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Pro Performance Shorts</h3>
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <span>(22)</span>
+                        </div>
+                        <div class="product-price">
+                            <span class="price">$39.99</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product 7 -->
+                <div class="product-card" data-category="accessories">
+                    <div class="product-img">
+                        <img src="images/product-accessory2.svg" alt="Digital Shot Tracker">
+                        <div class="product-actions">
+                            <button class="action-btn"><i class="fas fa-heart"></i></button>
+                            <button class="action-btn add-to-cart"><i class="fas fa-shopping-cart"></i></button>
+                            <button class="action-btn"><i class="fas fa-eye"></i></button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Digital Shot Tracker</h3>
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <span>(41)</span>
+                        </div>
+                        <div class="product-price">
+                            <span class="price">$79.99</span>
+                            <span class="old-price">$99.99</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Product 8 -->
+                <div class="product-card" data-category="balls">
+                    <div class="product-img">
+                        <img src="images/product-ball2.svg" alt="Indoor Training Ball">
+                        <div class="product-actions">
+                            <button class="action-btn"><i class="fas fa-heart"></i></button>
+                            <button class="action-btn add-to-cart"><i class="fas fa-shopping-cart"></i></button>
+                            <button class="action-btn"><i class="fas fa-eye"></i></button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3 class="product-title">Indoor Training Ball</h3>
+                        <div class="product-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <span>(28)</span>
+                        </div>
+                        <div class="product-price">
+                            <span class="price">$44.99</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="load-more">
+                <button class="btn btn-outline">Load More</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="featured" class="featured">
+        <div class="container">
+            <h2 class="section-title">Featured Products</h2>
+            <div class="featured-grid">
+                <div class="featured-large">
+                    <div class="featured-content">
+                        <h3>Signature Collection</h3>
+                        <p>Limited edition pro-level gear designed by basketball legends</p>
+                        <a href="#" class="btn btn-light">Explore Collection</a>
+                    </div>
+                    <img src="images/featured-signature.svg" alt="Signature Collection">
+                </div>
+                <div class="featured-small">
+                    <div class="featured-content">
+                        <h3>Training Essentials</h3>
+                        <p>Everything you need to elevate your practice sessions</p>
+                        <a href="#" class="btn btn-light">Shop Now</a>
+                    </div>
+                    <img src="images/featured-training.svg" alt="Training Essentials">
+                </div>
+                <div class="featured-small">
+                    <div class="featured-content">
+                        <h3>Team Packages</h3>
+                        <p>Bulk discounts for teams of all sizes</p>
+                        <a href="#" class="btn btn-light">Learn More</a>
+                    </div>
+                    <img src="images/featured-team.svg" alt="Team Packages">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials">
+        <div class="container">
+            <h2 class="section-title">What Our Customers Say</h2>
+            <div class="testimonial-slider">
+                <div class="testimonial-slide active">
+                    <div class="testimonial-content">
+                        <div class="testimonial-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="testimonial-text">"The Pro Court Elite X9 shoes completely transformed my game. The grip and ankle support are unmatched, and they're incredibly comfortable even after hours of play."</p>
+                        <div class="testimonial-author">
+                            <img src="images/testimonial-1.svg" alt="Michael J.">
+                            <div>
+                                <h4>Michael J.</h4>
+                                <p>College Player</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-slide">
+                    <div class="testimonial-content">
+                        <div class="testimonial-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="testimonial-text">"I've been coaching youth basketball for 15 years, and the training equipment from HoopHaven is by far the best I've used. Durable, effective, and the kids love it!"</p>
+                        <div class="testimonial-author">
+                            <img src="images/testimonial-2.svg" alt="Sarah T.">
+                            <div>
+                                <h4>Sarah T.</h4>
+                                <p>Youth Coach</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-slide">
+                    <div class="testimonial-content">
+                        <div class="testimonial-rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star-half-alt"></i>
+                        </div>
+                        <p class="testimonial-text">"Fast shipping, excellent customer service, and top-quality products. The Digital Shot Tracker has helped me improve my shooting percentage by 15% in just two months."</p>
+                        <div class="testimonial-author">
+                            <img src="images/testimonial-3.svg" alt="Alex K.">
+                            <div>
+                                <h4>Alex K.</h4>
+                                <p>Amateur Player</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-controls">
+                <button class="testimonial-btn prev"><i class="fas fa-chevron-left"></i></button>
+                <div class="testimonial-dots">
+                    <span class="dot active"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                </div>
+                <button class="testimonial-btn next"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <section class="elevate-game">
+        <div class="container">
+            <div class="elevate-content">
+                <h2>Elevate Your Game</h2>
+                <p>Take your basketball skills to the next level with our professional-grade equipment and training resources.</p>
+                <div class="elevate-features">
+                    <div class="elevate-feature">
+                        <i class="fas fa-basketball-ball"></i>
+                        <h3>Pro-Grade Equipment</h3>
+                        <p>Access the same quality gear used by professional athletes.</p>
+                    </div>
+                    <div class="elevate-feature">
+                        <i class="fas fa-chart-line"></i>
+                        <h3>Performance Tracking</h3>
+                        <p>Monitor your progress with our advanced tracking tools.</p>
+                    </div>
+                    <div class="elevate-feature">
+                        <i class="fas fa-graduation-cap"></i>
+                        <h3>Training Resources</h3>
+                        <p>Learn from expert coaches with our exclusive training content.</p>
+                    </div>
+                </div>
+                <a href="#" class="btn btn-primary">Explore Training Gear</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="newsletter">
+        <div class="container">
+            <div class="newsletter-content">
+                <h2>Join Our Newsletter</h2>
+                <p>Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals.</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Your email address" required>
+                    <button type="submit" class="btn btn-primary">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-image">
+                    <img src="images/about-store.svg" alt="Our Store">
+                </div>
+                <div class="about-content">
+                    <h2>About HoopHaven</h2>
+                    <p>Founded in 2010 by former professional players, HoopHaven is dedicated to providing basketball enthusiasts with the highest quality equipment and apparel.</p>
+                    <p>Our team of experts carefully selects each product in our inventory, ensuring that everything we sell meets our rigorous standards for performance, durability, and value.</p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <h3>10K+</h3>
+                            <p>Happy Customers</p>
+                        </div>
+                        <div class="stat">
+                            <h3>500+</h3>
+                            <p>Products</p>
+                        </div>
+                        <div class="stat">
+                            <h3>50+</h3>
+                            <p>Brand Partners</p>
+                        </div>
+                    </div>
+                    <a href="#" class="btn btn-secondary">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Contact Us</h2>
+            <div class="contact-grid">
+                <div class="contact-info">
+
+                    <div class="contact-card">
+                        <i class="fas fa-envelope"></i>
+                        <h3>Email Address</h3>
+                        <p>info@hoophaven.com</p>
+                    </div>
+                    <div class="contact-card">
+                        <i class="fas fa-clock"></i>
+                        <h3>Working Hours</h3>
+                        <p>Mon - Fri: 9AM - 9PM</p>
+                        <p>Sat - Sun: 10AM - 7PM</p>
+                    </div>
+                </div>
+                <div class="contact-form-container">
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Your Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Your Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-about">
+                    <h3>HoopHaven</h3>
+                    <p>Your one-stop destination for premium basketball gear and equipment.</p>
+                    <div class="social-icons">
+                        <a href="#" class="social-icon"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-icon"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#products">Products</a></li>
+                        <li><a href="#featured">Featured</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h3>Categories</h3>
+                    <ul>
+                        <li><a href="#">Shoes</a></li>
+                        <li><a href="#">Basketballs</a></li>
+                        <li><a href="#">Apparel</a></li>
+                        <li><a href="#">Accessories</a></li>
+                        <li><a href="#">Training Equipment</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h3>Customer Service</h3>
+                    <ul>
+                        <li><a href="#">My Account</a></li>
+                        <li><a href="#">Order Tracking</a></li>
+                        <li><a href="#">Wishlist</a></li>
+                        <li><a href="#">Shipping Policy</a></li>
+                        <li><a href="#">Returns & Exchanges</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 HoopHaven. All Rights Reserved.</p>
+                <div class="payment-methods">
+                    <img src="images/payment-visa.svg" alt="Visa">
+                    <img src="images/payment-mastercard.svg" alt="Mastercard">
+                    <img src="images/payment-paypal.svg" alt="PayPal">
+                    <img src="images/payment-amex.svg" alt="American Express">
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Shopping Cart Sidebar -->
+    <div class="cart-sidebar" id="cartSidebar">
+        <div class="cart-header">
+            <h3>Your Cart</h3>
+            <button class="close-cart"><i class="fas fa-times"></i></button>
+        </div>
+        <div class="cart-items" id="cartItems">
+            <!-- Cart items will be dynamically added here -->
+            <div class="empty-cart">
+                <i class="fas fa-shopping-cart"></i>
+                <p>Your cart is empty</p>
+                <a href="#products" class="btn btn-primary">Start Shopping</a>
+            </div>
+        </div>
+        <div class="cart-footer">
+            <div class="cart-total">
+                <span>Total:</span>
+                <span id="cartTotal">$0.00</span>
+            </div>
+            <button class="btn btn-primary checkout-btn">Checkout</button>
+        </div>
+    </div>
+    <div class="cart-overlay" id="cartOverlay"></div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
