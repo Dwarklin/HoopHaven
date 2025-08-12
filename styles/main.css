@@ -207,10 +207,10 @@ nav {
     padding: 1rem 0;
 }
 
-.logo h1 {
-    font-size: 1.75rem;
-    font-weight: 700;
-    color: var(--secondary-color);
+header .logo img {
+    height: 40px;
+    width: auto;
+    display: block;
 }
 
 .nav-menu {
